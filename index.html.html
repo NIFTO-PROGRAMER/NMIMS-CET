@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation AI/ML | NMIMS CET Sprint</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap');
+        
+        body { 
+            font-family: 'Space Grotesk', sans-serif; 
+            background-color: #000000; 
+            color: #ffffff; 
+            overflow-x: hidden; 
+        }
+        
+        .sprint-card { 
+            background: rgba(15, 15, 15, 0.8); 
+            backdrop-filter: blur(12px); 
+            border: 1px solid rgba(255, 255, 255, 0.08); 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        
+        .sprint-card:hover { 
+            border-color: #f59e0b; 
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.1); 
+        }
+        
+        .exam-day {
+            border-color: rgba(245, 158, 11, 0.4);
+            background: linear-gradient(180deg, rgba(245, 158, 11, 0.05) 0%, rgba(15, 15, 15, 0.8) 100%);
+        }
+
+        .accent-text { color: #f59e0b; }
+        
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #f59e0b; }
+    </style>
+</head>
+<body class="min-h-screen p-6 md:p-12 max-w-7xl mx-auto">
+    
+    <header class="mb-20 animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div class="flex flex-col md:flex-row justify-between items-end gap-8">
+            <div class="text-left">
+                <div class="inline-block px-3 py-1 rounded-md bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold tracking-[0.3em] uppercase mb-4">
+                    Strategic Reattempt Preparation
+                </div>
+                <h1 class="text-6xl md:text-8xl font-bold tracking-tighter leading-none">
+                    NMIMS<br/><span class="accent-text">CET '26</span>
+                </h1>
+            </div>
+            
+            <div class="flex gap-4 w-full md:w-auto">
+                <div class="sprint-card p-6 rounded-2xl flex-1 md:w-40 border-l-4 border-l-amber-500">
+                    <p class="text-slate-500 text-[9px] uppercase font-bold tracking-widest mb-1">Target Branch</p>
+                    <p class="text-2xl md:text-3xl font-bold tracking-tight">AI / ML</p>
+                </div>
+                <div class="sprint-card p-6 rounded-2xl flex-1 md:w-40">
+                    <p class="text-slate-500 text-[9px] uppercase font-bold tracking-widest mb-1">Deadline</p>
+                    <p class="text-2xl md:text-3xl font-bold accent-text tabular-nums tracking-tight">MAY 25</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-100">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 16</span>
+                Baseline & Intel
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">LOGIC</span>
+                    <span class="leading-snug">1.5 Hours: Venn diagrams, syllogisms, and data interpretation mapping.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">LANG</span>
+                    <span class="leading-snug">45 Mins: Error spotting and preposition usage rules.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">1 Hour: Formula sheet skimming. No heavy solving.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-150">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 17</span>
+                Physics & Logic Drills
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">2 Hours: 50-question Physics sprint (Mechanics & E-Mag). Skip if > 60s.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">1 Hour: Maths Calculus shortcuts and Vector/3D geometry.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">LOGIC</span>
+                    <span class="leading-snug">1 Hour: Sequence, series, and coding-decoding practice.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-200">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 18</span>
+                Chem & Mock 1
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">MOCK</span>
+                    <span class="leading-snug">2 Hours: Full 120-min timed test. Attempt Chem & Lang first.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">ANALYZE</span>
+                    <span class="leading-snug">1 Hour: Review Mock 1. Identify specific time-sink questions.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">1.5 Hours: Chemistry factual recall (Inorganic trends, named rxns).</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 19</span>
+                Math Sprint & Reset
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">2 Hours: 50-question Math sprint (Algebra, Coordinate Geo).</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">MIXED</span>
+                    <span class="leading-snug">1 Hour: Reading comprehension & mixed logic drills.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-amber-500/5 text-amber-100 border border-amber-500/20 hover:bg-amber-500/10 transition-all">
+                    <span class="bg-amber-500 text-black px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">EVENT</span>
+                    <span class="leading-snug">Evening: Tune into Google I/O. Reset mind, focus on AI/ML goals.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 20</span>
+                Mock 2 & Correction
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">MOCK</span>
+                    <span class="leading-snug">2 Hours: Full 120-min test. Enforce the "Ruthless Skip" rule.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">ANALYZE</span>
+                    <span class="leading-snug">1.5 Hours: Deep dive on persistent pacing bottlenecks.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">FIX</span>
+                    <span class="leading-snug">1.5 Hours: Micro-drilling specifically on missed Mock 2 topics.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-300">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500/50 font-medium text-[10px] uppercase tracking-widest mb-1">May 21</span>
+                The Cooldown
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PCM</span>
+                    <span class="leading-snug">2 Hours: Final visual scan of formula sheets for all 3 subjects.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-amber-500/10 text-amber-500 border border-amber-500/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">LOGIC</span>
+                    <span class="leading-snug">45 Mins: Light data interpretation to keep the mind sharp.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent hover:bg-white/[0.05] transition-all">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">REST</span>
+                    <span class="leading-snug">Hard stop at 6:00 PM. Rest the system.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card exam-day p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-500">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500 font-bold text-[10px] uppercase tracking-widest mb-1">May 22</span>
+                Attempt 01: The Scout
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-amber-500/10 text-amber-200 border border-amber-500/30">
+                    <span class="bg-amber-500 text-black px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">EXECUTE</span>
+                    <span class="leading-snug">Run the strategy. Gather hard data on the UI and time pressure.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">LOG</span>
+                    <span class="leading-snug">Post-Exam: Immediately document all friction points.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sprint-card exam-day p-6 rounded-3xl flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-500 delay-700">
+            <h3 class="text-lg font-bold text-slate-200 mb-6 flex flex-col items-start min-h-[40px]">
+                <span class="text-amber-500 font-bold text-[10px] uppercase tracking-widest mb-1">May 23 - 25</span>
+                Patch & Final Run
+            </h3>
+            <div class="space-y-3">
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-white/[0.02] text-slate-400 border border-transparent">
+                    <span class="bg-white/10 text-white border border-white/20 px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">PATCH</span>
+                    <span class="leading-snug">May 23-24: Only study the exact issues that slowed you down on Exam 1.</span>
+                </div>
+                <div class="w-full text-left p-3 rounded-xl flex items-start gap-3 text-[11px] font-medium bg-amber-500/10 text-amber-200 border border-amber-500/30">
+                    <span class="bg-amber-500 text-black px-2 py-0.5 rounded text-[9px] font-bold tracking-wider uppercase min-w-[55px] text-center mt-0.5">EXAM 2</span>
+                    <span class="leading-snug">May 25: Calibrated execution. Secure the AI/ML cutoff.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="mt-20 pb-12 border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-600 animate-in fade-in duration-1000 delay-1000">
+        <p class="text-[10px] uppercase tracking-[0.5em] font-bold">Limit Δx → 0 • Success is Continuous</p>
+        <p class="text-xs italic">System optimized for peak performance.</p>
+    </footer>
+    
+</body>
+</html>
